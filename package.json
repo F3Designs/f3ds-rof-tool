@@ -1,0 +1,23 @@
+{
+  "name": "f3ds-rof-tool",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "@ffmpeg/core": "^0.12.6",
+    "@ffmpeg/ffmpeg": "^0.12.10",
+    "@ffmpeg/util": "^0.12.1",
+    "coi-serviceworker": "^0.1.7",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "plotly.js-dist-min": "^3.2.0"
+  }
+}
